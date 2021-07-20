@@ -1,0 +1,22 @@
+{
+    "background" :
+    {
+        "page":"index.html"
+    },
+    "manifest_version": 2,
+    "name" : "Collector",
+    "description" : "A-Helper의 수집을 도와주는 확장 프로그램",
+    "version" : "1.0.0.0",
+    "icons":
+    {
+        "128" : "icon/logo3.png" 
+    },
+    "browser_action" : 
+    {
+        "default_title" : "Collector",
+        "default_icon" : "icon/logo3.png" 
+    },
+    "permissions": [ "activeTab" ],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+  
+}
